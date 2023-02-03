@@ -1,0 +1,125 @@
+<!-- Este es un comentario -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Etiqueta para la codficacion de mi pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compatibilidad con navegadores obsoletos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--La escala en la vista de mi documento (no confundir con disenio responsivo)-->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Etiquetas de cabecera -->
+    <h1>Este es un H1</h1>
+    <h2>Este es un H2</h2>
+    <h3>Este es un H3</h3>
+    <h4>Este es un H4</h4>
+    <h5>Este es un H5</h5>
+    <h6>Este es un H6</h6>
+
+
+    <!--Etiquetas para formatear parrafos
+    
+        em para italicas
+        u para subrayar
+        b para poner texto en negritas (palabras)
+        strong para poner texto en negritas (textos largos)
+        blockquote sirve para crear un bloque de texto como si fuera una cita
+        del para tachar texto
+
+    -->
+
+
+    <p>
+        <em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio at officia </em> aut atque necessitatibus molestiae animi quis officiis eveniet dolor. <del>Ipsam velit, ducimus similique non fugiat magni aperiam praesentium soluta!</del>
+    </p>
+
+    <p>
+        <u>Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit. Culpa ab dolorum molestiae consequatur eaque animi, in quidem id adipisci, impedit, molestias earum assumenda voluptatibus inventore voluptatem. Inventore, consectetur. Eaque, consequatur?</u>
+    </p>
+
+    <p>
+        <blockquote> ipsum <strong>dolor, sit amet consectetur adipisicing elit. Aliquam rerum sapiente quasi quos reiciendis fugiat labore repudiandae tempora nobis corporis. Ad numquam eius voluptatum similique mollitia. Laudantium recusandae quo in.</strong></blockquote>
+    </p>
+
+<!-- Atributos de las etiquetad
+
+    Los atributos de las etiquetas son una serie de elementos que se pueden agregar a una etiqueta en si para dotarla de mas caracteristicas. (No todas las etiquetas tienen atributos). Estos atributos nos permiten agregar elementos como estilos, identificadores, eventos, etc.
+
+    - Class: Marcan un conjunto de elementos
+    - ID: Marcan un elemento en especifico
+    - Name: Marca el nombre de la etiqueta
+
+-->
+<!-- Etiqueta de imagen (img) 
+
+La etiqueta img nos permite agregar una imagen en un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+
+Algunos de los atributos de la etiqueta img son:
+
+    - src (source): definir la ubicacion del archivo (interna o externa)
+    - width: definir el ancho de la imagen
+    - height define el alto de la imagen
+    - alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+
+
+
+-->
+
+<img src="https://pbs.twimg.com/media/FAKHc1nVgAMoYn0.jpg">
+<img src="perritoplayero.jpg" width="50%">
+<!-- Etiquetas divisorias y separadores
+
+
+    - br: nos sirve para dar una separacion (salto de linea)
+    - hr: para mostrar una linea que sirve como separador
+
+-->
+<!-- Etiquetas de enlace <a>
+
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+-->
+
+<a href="https://www.google.com" target="_blank" title="mira como se muestra el titulo">Este texto me lleva a google</a>
+<br>
+<a href="/perritoplayero.jpg" target="_top" download>Descarga una bonita imagen de un perrito playero</a>
+<!-- 
+
+    src (source): incrustar un recurso (pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, pero que no necesariamente incrusta el elemento.
+
+ -->
+ <h3>Lista ordenada de tacos</h3>
+ <ol> <!-- Ordered List-->
+    <li> <!--List Item-->
+        taquito de carnitas
+    </li>
+    <li>taquito de pastor</li>
+    <li>taquito de longaniza</li>
+    <li>taquito de suadero</li>
+    <li>taquito de Guisado
+        <ul>
+            <li>Milanesa</li>
+            <li>chile relleno</li>
+        </ul>
+    </li>
+ </ol>
+<h3>Lista Desordenada de pendientes</h3>
+<ul>
+    <li>Lavar los trastes</li>
+    <li>dormir</li>
+    <li>Jugar fornite</li>
+    <li>taquito de tripa</li>
+</ul>
+      
+</body>
+</html>
